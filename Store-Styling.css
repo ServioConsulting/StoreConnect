@@ -1,0 +1,31 @@
+:root {
+    --sc-color-primary-h: 207;
+    --sc-color-primary-s: 100%;
+    --sc-color-primary-l: 20%;
+    --sc-color-primary-a: 1;
+   
+    --sc-color-secondary-h: 196;
+    --sc-color-secondary-s: 100%;
+    --sc-color-secondary-l: 42.5%;
+    --sc-color-secondary-a: 1;
+  }
+  
+  body {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .SC-ProductCard_image {
+    height: 100%;
+  }
+  
+  .SC-ProductCard_image img,
+  .SC-ProductCard_image svg {
+    object-fit: cover;
+    height: 100%;
+    aspect-ratio: 3/2;
+  }
+  
+  .SC-ProductCard_headline {
+    padding-top: 10px; /* Adjust the value as needed */
+  }
